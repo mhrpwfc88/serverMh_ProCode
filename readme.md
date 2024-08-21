@@ -20,11 +20,11 @@ di lengkapi juga dengan monitoring storage server, Bandwidth ,jumlah file di upl
 - **upload file private**: menyimpan file yg bersifat pribadi atau user admin.
 - **Upload file public**: Menyimpan file yg bersifat public atau user.
 - **Multi User**: terdapat 2 level user 1 admin. 2.user, user tidak bisa bisa masuk ke private file.
-- **catatan**: ada fitur catatan untuk menyimpan catatan private (khusus level admin).
-- **To Do List**: ada fitur To do List(target) hanya untul level admin.
+- **catatan**: fitur catatan untuk menyimpan catatan private (khusus level admin).
+- **To Do List**: fitur To do List(target) hanya untul level admin.
 - **share file via link**: share file via link dan automatis downlooad file terserbut.
-- **Delete file private**: button delete file private.
-- **Delete file public**: button delete file public.
+- **Delete file private**: menghapus file private lewat id file.
+- **Delete file public**: menghapus file public lewat id file.
 
 ## 🚀 Getting Started
 
