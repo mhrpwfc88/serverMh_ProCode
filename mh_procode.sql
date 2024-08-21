@@ -70,19 +70,6 @@ CREATE TABLE `list_target` (
   `status_target` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- --------------------------------------------------------
-
---
--- Struktur dari tabel `server`
---
-
-CREATE TABLE `server` (
-  `id_server` int(11) NOT NULL,
-  `nama_server` varchar(200) NOT NULL,
-  `link_server` varchar(200) NOT NULL,
-  `status_server` tinyint(1) NOT NULL,
-  `link_icon` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -147,11 +134,6 @@ ALTER TABLE `files_share`
 ALTER TABLE `list_target`
   ADD PRIMARY KEY (`id_target`);
 
---
--- Indeks untuk tabel `server`
---
-ALTER TABLE `server`
-  ADD PRIMARY KEY (`id_server`);
 
 --
 -- Indeks untuk tabel `tbuser`
@@ -192,12 +174,6 @@ ALTER TABLE `files_share`
 --
 ALTER TABLE `list_target`
   MODIFY `id_target` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT untuk tabel `server`
---
-ALTER TABLE `server`
-  MODIFY `id_server` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbuser`

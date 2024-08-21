@@ -119,23 +119,12 @@ if (empty($_SESSION['iduser'])) {
             <a href=".?hal=list">
               <i class="zmdi zmdi-grid"></i> <span>list tugas</span>
               <small class="badge float-right badge-light">lock</small>
-            </a>
-          </li>
+            </a>          </li>
 
 
 
-          <li>
-            <a href=".?hal=server">
-              <i class="zmdi zmdi-card-membership"></i> <span>server</span>
-              <small class="badge float-right badge-light">lock</small>
-            </a>
-          </li>
 
-          <!-- <li>
-            <a href="login.html" target="_blank">
-              <i class="zmdi zmdi-info-outline"></i> <span>monitoring</span>
-            </a>
-          </li> -->
+
 
           <li>
             <a href=".?hal=private_file" >

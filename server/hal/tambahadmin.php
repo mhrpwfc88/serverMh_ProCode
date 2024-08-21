@@ -46,7 +46,7 @@
                     $telepon = $_POST['txttelepon'];
                     $alamat = $_POST['txtalamat'];
                     $username = $_POST['txtusername'];
-                    $password = password_hash($_POST['txtpassword'], PASSWORD_DEFAULT); // Menggunakan bcrypt untuk meng-hash password
+                    $password = password_hash($_POST['txtpassword'], PASSWORD_DEFAULT); 
                     $email = $_POST['txtemail'];
                     mysqli_query($k, "INSERT INTO tbuser (nama_user, akses, telepon, alamat, username,password, email)VALUES('$nama',$akses,'$telepon','$alamat','$username','$password','$email')");
                     echo "<script>alert('Data berhasil disimpan');location='.?hal=admin'</script>";

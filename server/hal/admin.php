@@ -4,8 +4,8 @@
             <div class="card-header">Admin
                 <a class="btn ml-3 btn-light" href=".?hal=tambahadmin">Tambah Data</a>
                 <?php
-                // Mengambil nilai akses saat ini dari database
-                $id = 1; // Ganti dengan id yang sesuai
+     
+                $id = 1; 
                 $sql = "SELECT akses FROM user_access WHERE id = $id";
                 $result = $k->query($sql);
 
