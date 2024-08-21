@@ -30,7 +30,7 @@ To get started with **Server Nata**, follow these steps:
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/project-name.git
+    git clone https://github.com/mhrpwfc88/serverMh_ProCode.git
     ```
 
 ## 💬 Contributing
